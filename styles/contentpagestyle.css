@@ -1,0 +1,46 @@
+#content1, #content2, #content3 {
+    min-height: 200px;
+    font-size: normal;
+}
+
+.jumpList {
+    overflow: auto;
+    width: 20%;
+    max-height: 380px; 
+    margin-top: 1.8em;
+    font-size: small;
+}
+
+.jumpList li {
+    border-top: 1px solid #666666;
+}
+
+.jumpList li:first-child {
+    border-top: 0;
+}
+
+.jumpItem {
+    padding: 5px 0 0 5px;
+    min-height: 55px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.jumpItem:hover {
+    background-color: #cccccc;
+}
+
+.contentWrap {
+    width: 75%;
+    margin-top: 1.5em;
+}
+
+.contentWrap p {
+    margin-bottom: 0.8em;
+    line-height: 1.2em;
+}
+
+.articleSub {
+    margin: 5px 0 15px 0;
+}

@@ -1,0 +1,31 @@
+/*STYLE FOR MAIN PAGE*/
+#home, #home:hover {
+    background: #fff;
+    text-shadow: none;    
+    color: #333;
+}
+
+#content {
+	margin-top: 20px;
+	padding: 0 50px 0 50px;
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.portalList {
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+}
+
+.portalList li {
+	margin-left: 0.5em;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}

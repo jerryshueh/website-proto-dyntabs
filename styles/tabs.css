@@ -1,0 +1,44 @@
+/*STYLE FOR NAVIGATION TABS*/
+
+/*styles unordered list (ul)*/
+#tabs {
+    text-align: center; 
+    overflow: hidden;
+    width: 90%;         /*percentage dimensions always apply to the parent div, in this case the body tag*/
+    list-style: none;   /*sets the list to have no style (gets rid of list bullets)*/
+    margin: 0;
+    padding-left: 10px;
+}
+
+/*styles for each individual list item*/
+#tabs li {
+    margin: 0;          /*margin and padding set to 0 so they appear immediately after one another*/
+    padding: 0;         /*setting values to these properties will put spaces between the tabs (which are actually ul items)*/
+}
+
+/*styles for hyperlinks within the tabs (clickable field)*/
+#tabs a {
+    box-shadow: 0 2px 2px #000;
+    background: #444444;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+    float: left;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+#tabs a:hover {
+    background: #666666;     
+}
+
+#tabs a:focus {
+    outline: 0;
+}
+
+#tabs .current, #tabs .current:hover{
+    background: #fff;
+    text-shadow: none;    
+    color: #333;
+}

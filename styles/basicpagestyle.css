@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+html {
+    background-color: #888888;
+}
+/*styles applied to the body tag will apply to the entire page*/
+/*in this case, a trick is applied so that the body will only span 60% of the browser width*/
+/*this achieves an effect that allows content to appear as a small window on the larger page*/
+body {
+    width: 900px;
+    margin: 10px auto 10px auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: normal;
+}
+
+h1 {
+	font-weight: bold;
+	color: #333333;
+}
+
+h3 {
+    font-weight: normal;
+    color: #444444;
+}
+
+#header {
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+#footer {
+	text-align: right;
+	padding: 7px 10px;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+#main {
+    clear: both;
+    overflow: hidden;
+    background-color: #fff;
+    background-image: linear-gradient(top, #fff, #ddd);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 2px #000;
+    padding: 30px;
+}
